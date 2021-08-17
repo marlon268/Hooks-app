@@ -4,6 +4,7 @@ import "./counter.css";
 export const CounterApp = () => {
    // El setState le cae encima al estado anterios
    const [state, setState] = useState({ counter1: 10, counter2: 20 });
+
    const { counter1, counter2 } = state;
 
    return (
